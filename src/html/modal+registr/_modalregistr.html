@@ -1,0 +1,32 @@
+<!-- Modal -->
+                  <div class="modal__wrapper">
+                    <div class="modal__registration">
+                        <div class="modal__close"> <img src="<%=require ('./images/cancel.svg')%>" alt="cancel" width="20px" height="20px"></div>
+                        <div class="modal__title"><span>Sign up</span> </div>
+                        <div class="modal__body">
+                        <p style="padding-bottom: 10px;">Please fill in this form to create an account.</p>
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" class="password" placeholder="Enter Email" name="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" class="password" placeholder="Enter Password" name="psw" required>
+
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" class="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                        </label>
+
+                        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                        <div class="clearfix">
+                          <button type="button" class="cancelbtn">Cancel</button>
+                          <button type="submit" class="signupbtn">Sign Up</button>
+                        </div><!-- clearfix-->
+
+                        </div><!-- modal__body -->
+                    </div><!-- modal -->
+                  </div><!-- modal__wrapper -->
+                  <a href="#" class="btn modal__btn">link</a>

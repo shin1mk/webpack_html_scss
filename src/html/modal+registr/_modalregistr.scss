@@ -1,0 +1,97 @@
+// ************************ Модальное окно c регистрацией ************************ //
+// modal
+.modal__wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    display: none;
+}
+
+.modal__registration {
+    background: $white;
+    padding: 25px;
+    border-radius: 5px;
+    height: auto;
+    width: 400px;
+}
+
+.modal__title {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.modal__close {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.password {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    &:focus {
+        background-color: #ddd;
+        outline: none;
+        }
+}
+
+
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    &:hover {
+        opacity: 100%;
+        transition: 0.1s all ease;
+    }
+}
+.cancelbtn {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    &:hover {
+        opacity: 100%;
+        transition: 0.1s all ease;
+    }
+}
+
+
+// ************************ Кнопка вызова модального окна ************************ //
+// .modal__btn {
+//     display: flex;
+//     justify-content: center;
+//     cursor: pointer;
+// }
+
+
+
+// /* Change styles for cancel button and signup button on extra small screens */
+// @media screen and (max-width: 300px) {
+//     .cancelbtn, .signupbtn {
+//        width: 100%;
+//     }
+// }
